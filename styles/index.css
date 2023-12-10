@@ -1,0 +1,171 @@
+#header {
+  border-bottom: 10px solid rgba(177, 133, 204, 0.5);
+  background-color: #F7F0F5;
+}
+
+#header nav div.container-image{
+  width: 50%;
+}
+
+#header nav div#navbarNav{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+}
+
+ul.navbar-nav li a {
+  color: #533747;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+
+main div.containerBlank{
+  height: 30vw;
+}
+
+.row {
+  margin: 3vw 0;
+}
+
+.title__section {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #533747;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.card {
+  margin: 1rem 0;
+  padding: 0;
+  box-shadow: 0px 10px 15px rgba(124, 124, 124, 0.5);
+  width: 90%;
+  padding: 2rem;
+}
+
+form.card div.row:last-child {
+  margin-bottom: 4rem;
+}
+
+form.card label {
+  margin-left: 2.5rem;
+  color: rgba(84, 56, 72, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+form.card .containerInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form.card input{
+  width: 90%;
+  border-radius: 1rem;
+  background-color: rgb(237, 230, 233, 0.5);
+  border: 1px solid rgb(177, 133, 204, 0.7);
+}
+
+form.card textarea{
+  width: 90%;
+  border-radius: 1rem;
+  background-color: rgb(237, 230, 233, 0.5);
+  border: 1px solid rgb(177, 133, 204, 0.7);
+}
+
+form.card select{
+  width: 90%;
+  color: rgba(84, 56, 72, 0.7);
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-bottom: 16px;
+  background-color: rgb(237, 230, 233, 0.5);
+  border: 1px solid rgb(177, 133, 204, 0.7);
+  text-transform: translateY(1rem);
+}
+
+
+
+form.card select option{
+  color:rgba(84, 56, 72, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+form.card button.btn {
+  margin: auto;
+  width: 40%;
+  height: 3.2rem;
+  background-color: rgba(177, 133, 204, 0.5);
+  border: 1px solid transparent;
+  color: #533747;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+
+form.card .row:last-of-type {
+  margin-bottom: 7rem;
+}
+
+div.alert{
+  width: 30%;
+  text-align: center;
+  margin:auto;
+  margin-bottom: 5rem;
+}
+
+footer #nuestro_compromiso_contigo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.nuestro_compromiso_contigo-paragraph {
+  width: 90%;
+  text-align: justify;
+  margin: 3vw 0;
+}
+
+.icons__socialNetworks {
+  color: #B084CC;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+section#icons {
+  margin-bottom: 1.5rem;
+}
+
+.author {
+  margin-bottom: 0;
+}
+
+.author__paragraph {
+  width: 100%;
+  background: #F7F0F5;
+  border-top: 10px solid rgba(176, 132, 204, 0.5);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+@media (max-width: 575px) {
+  .title__section {
+    font-size: 1.8rem;
+  }
+
+  .author__paragraph {
+    font-size: 0.5rem;
+  }
+}
+
+@media(min-width:575px) and (max-width:768px) {
+  #navbarNav {
+    width: 70%;
+  }
+}
